@@ -1,0 +1,17 @@
+.section.performance {
+  background-color: $color-dark;
+  color: $color-white;
+}
+
+.performance--columns {
+  column-count: 2;
+  column-gap: 4rem;
+  div {
+    margin-bottom: 2rem;
+    break-inside: avoid;
+  }
+}
+
+.two-blocks-center {
+  background-color: $color-light-grey;
+}
