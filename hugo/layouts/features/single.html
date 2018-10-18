@@ -1,1 +1,49 @@
-{{/* Empty so no pages are rendered in built site */}}
+{{- define "json-ld" -}}
+  {{- partial "seo/json-ld/organization" . -}}
+  {{- partial "seo/json-ld/pricing" . -}}
+{{- end -}}
+{{- define "main" -}}
+  <section class="section pricing">
+    <div class="plan--top-bar" style="background-color: #ffffff;">
+      <!--div class="container">
+        <div class="plans">
+        {{- range .Site.Data.pricing.plans -}}
+          {{- partial "components/pricing/plan-summary" . -}}
+        {{- end -}}
+        </div>
+      </div-->
+    </div>
+    <div class="container" style="display: grid; grid-template-columns: 1fr 2fr;">
+    <div class="" style="display: flex;flex-direction: column;">
+
+	  {{- with .Params.features -}}
+	    {{- range . -}}
+	    <div class="">
+	      {{- if and .title .description -}}
+	        {{- partial "components/features/nav" (dict "title" .title "description" .description) -}}
+	      {{- end -}}
+	    </div>
+	    {{- end -}}
+	  {{- end -}}
+
+	</div>
+    <div class="">
+
+	  {{- with .Params.features -}}
+	  <section class="section faq">
+	    {{- range . -}}
+	      {{- if and .title .description -}}
+	    <div class="container" style="display: none;">
+	        {{- partial "components/features/feature" (dict "title" .title "description" .description) -}}
+	    </div>
+	      {{- end -}}
+	    {{- end -}}
+	  </section>
+	  {{- end -}}
+
+	</div>
+</div>
+  </section>
+
+  {{- partial "components/cta/basic" -}}
+{{- end -}}
