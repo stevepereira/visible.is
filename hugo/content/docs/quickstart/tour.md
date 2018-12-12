@@ -81,7 +81,7 @@ Make your first edit by updating the post's title, and then click <svg xmlns="ht
 
 Next, set the post as published so that it will be included when the site is deployed. In the top-right corner turn _Draft_ to _OFF_. You'll see the _Save Draft_ button now only says _Save_.
 
-Click the _Save_ button to deploy your site. By default Forestry saves your changes back to your repository. You can [set up deployment](#deployment) to build and send your site to a different repository, an (S)FTP Server, AWS S3 and [other hosting options](/docs/hosting/).
+Click the _Save_ button to deploy your site. By default Forestry saves your changes back to your repository. You can [set up deployment](#deployment) to build and send your site to GitHub Pages, (S)FTP Servers, AWS S3 and [other hosting options](/docs/hosting/).
 
 **Additional resources:**
 
@@ -152,6 +152,7 @@ We recommend using some time to research the different hosting options for stati
 * Our [guide](/docs/hosting/github-pages/) to set up free hosting with Github Pages
 * Set up a static site hosting stack on [AWS with CloudFormation](/docs/hosting/s3-cloudfront-stack/)
 * Integrate Forestry with other providers via [Webhooks](/docs/hosting/webhooks/)
+* Customize your [Build Commands](https://forestry.io/docs/settings/build-commands/) for custom build processes
 
 ***
 
