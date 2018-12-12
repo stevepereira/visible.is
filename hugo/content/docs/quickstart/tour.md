@@ -180,7 +180,6 @@ Forestry has many more features for content editors:
 * Learn more about the [Media Library](/docs/editing/media-library)
 * Learn how to create [Menus](/docs/editing/menus) for navigation and site links
 * Add structured metadata with [Front Matter](/docs/editing/front-matter)
-* Access the CMS from your own domain with the [Remote Admin](/docs/editing/remote-admin)
 
 ### Developing
 
