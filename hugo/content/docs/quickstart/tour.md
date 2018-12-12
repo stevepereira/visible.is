@@ -105,9 +105,7 @@ Update the _Twitter_ option from "forestryio" to "twitter" or any other handle, 
 
 Once the preview has loaded, you'll see that the Twitter feed on the homepage has updated.
 
-{{% tip %}}
-Previewing data files and menus will always redirect you to the homepage of your site, because they aren't associated with a specific page!
-{{% /tip %}}
+{{% tip %}} Previewing data files and menus will always redirect you to the homepage of your site, because they aren't associated with a specific page. {{% /tip %}}
 
 ***
 
@@ -139,9 +137,9 @@ Feel free to hit _Save_ to deploy your changes.
 
 ## Deployment
 
-To put your site live, Forestry builds and deploys your site to a hosting service of your choice every time you hit _Save_ on a page. Forestry offers many [deployment options](/docs/hosting/)!
+To put your site live, Forestry builds and deploys your site to a hosting service of your choice, every time you hit _Save_ on any page. 
 
-The demo site by default simply saves your files back to your repository without building the site for you. However, usually you have to send the built site (e.g. GitHub Pages, Zeit, AWS S3, SFTP etc.). Forestry does this for you. Under _Site_ click on _Settings_ and choose _Deployment_. You'll see a dropdown with all of your options that can currently be handled by Forestry. See _Additional Resources_ below to find specific guides for selected deployment methods.
+The demo site by default simply saves your files back to your repository without building the site for you. However, usually you have to send the built site (e.g. GitHub Pages, Zeit, AWS S3, SFTP etc.). Forestry does this for you. Under _Site_ click on _Settings_ and choose _Deployment_. You'll see a dropdown with all of your [deployment options](/docs/hosting/) that can currently be handled by Forestry. See _Additional Resources_ below to find specific guides for selected deployment methods.
 
 ![](/uploads/2018/12/deployment-quickstart.png)
 
@@ -158,7 +156,7 @@ We recommend using some time to research the different hosting options for stati
 
 ## Team and Guest Management
 
-Invite your clients or team members to update your site for you.
+Invite your clients or team members to allow them to update the site with Forestry.
 
 Editors that only have access to one specific site are called Guests in Forestry. These roles are ideal for non-technical users that maintain a site on a regular basis (e.g. writers, clients or marketers). You can add a Guest to your site in the sidebar by clicking on the + and adding their e-mail address.
 
