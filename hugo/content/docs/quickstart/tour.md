@@ -81,13 +81,14 @@ Make your first edit by updating the post's title, and then click <svg xmlns="ht
 
 Next, set the post as published so that it will be included when the site is deployed. In the top-right corner turn _Draft_ to _OFF_. You'll see the _Save Draft_ button now only says _Save_.
 
-Click the _Save_ button to deploy your site. By default Forestry saves your changes back to your repository. You can [set up deployment](#deployment) to build and send your site to a different repository, an (S)FTP Server, AWS S3 and [other hosting options](/docs/hosting/) etc.
+Click the _Save_ button to deploy your site. By default Forestry saves your changes back to your repository. You can [set up deployment](#deployment) to build and send your site to a different repository, an (S)FTP Server, AWS S3 and [other hosting options](/docs/hosting/).
 
 **Additional resources:**
 
-* Create great content with the powerful [Markdown Editor](/docs/editing/markdown-editor) and with [Data Files](/docs/editing/data-files)
+* Create great content with the powerful [Markdown Editor](/docs/editing/markdown-editor)
 * Allow Editors to add custom code [Snippets](/docs/settings/snippets/)
 * Create Modular Content with [Blocks](/docs/settings/fields/blocks/)
+* Customize your Preview by adding [Custom Preview Commands](https://forestry.io/docs/settings/build-commands/)
 
 ***
 
@@ -99,7 +100,7 @@ _Data files_ allow you to set up metadata that isn't associated with a specific 
 
 In Forestry, Data Files show up in the sidebar with your content files, select _Contact Information_ to pull up the demo site's company information.
 
-Update the _Twitter_ option from "forestryio" to "twitter" or any other handle, and then click <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><g fill="none" fill-rule="evenodd" stroke="currentcolor" stroke-width="1.2"><path d="M12 18c6 0 10-6 10-6s-4-6-10-6-10 6-10 6 4 6 10 6z"></path><circle cx="12" cy="12" r="2"></circle></g></svg> in the top right to preview the website.
+Update the _Twitter_ option from "forestryio" to "twitter" or any other handle, and then click <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><g fill="none" fill-rule="evenodd" stroke="currentcolor" stroke-width="1.2"><path d="M12 18c6 0 10-6 10-6s-4-6-10-6-10 6-10 6 4 6 10 6z"></path><circle cx="12" cy="12" r="2"></circle></g></svg> in the top-right corner to preview the website.
 
 Once the preview has loaded, you'll see that the Twitter feed on the homepage has updated.
 
@@ -131,19 +132,19 @@ Feel free to hit _Save_ to deploy your changes.
 
 **Additional Resources:**
 
-* Connect the Forestry Media Library with [Cloudinary](/docs/media/cloudinary/)
+* Connect the Forestry Media Library with [Cloudinary](/docs/media/cloudinary/) for optimized image delivery
 
 ***
 
 ## Deployment
 
-To put your site live, Forestry builds and deploys your site to a hosting service of your choice everytime you hit _Save_ on a page. You have many [hosting options](/docs/hosting/)!
+To put your site live, Forestry builds and deploys your site to a hosting service of your choice every time you hit _Save_ on a page. Forestry offers many [deployment options](/docs/hosting/)!
 
-The demo site by default simply saves your files back to your repository without building the site for you. However, usually you have to send the built site (e.g. GitHub Pages, Zeit, AWS S3, SFTP etc.). Forestry does this for you. Under _Site_ click on _Settings_ and choose _Deployment_. You'll see a dropdown with all of your options that can currently be handled by Forestry. See _Additional Resources_ below to find specific guides for certain deployments.
+The demo site by default simply saves your files back to your repository without building the site for you. However, usually you have to send the built site (e.g. GitHub Pages, Zeit, AWS S3, SFTP etc.). Forestry does this for you. Under _Site_ click on _Settings_ and choose _Deployment_. You'll see a dropdown with all of your options that can currently be handled by Forestry. See _Additional Resources_ below to find specific guides for selected deployment methods.
 
 ![](/uploads/2018/12/deployment-quickstart.png)
 
-We recommend using some time to research the different options for static sites to find the one that fits your needs best (e.g. [GitHub Pages](/docs/hosting/github-pages/),[AWS S3](/docs/hosting/s3-cloudfront-stack/), Zeit or Netlify).
+We recommend using some time to research the different hosting options for static sites to find the one that fits your needs best (e.g. [GitHub Pages](/docs/hosting/github-pages/), [AWS S3](/docs/hosting/s3-cloudfront-stack/), Zeit or Netlify).
 
 **Additional Resources:**
 
@@ -163,7 +164,7 @@ Editors that only have access to one specific site are called Guests in Forestry
 
 Guest roles are always free, per site you can add up-to 3 of these roles.
 
-For teams that want to take it to the next level Forestry offers [Organizations](/docs/settings/team-management#organizations). Organizing editors, developers and admins in [User roles](/docs/settings/team-management#user-roles) makes managing your whole team simple (paid feature).
+For teams that need more advanced team management Forestry provides [Organizations](/docs/settings/team-management#organizations). Organizing editors, developers and admins in [User roles](/docs/settings/team-management#user-roles) makes managing your whole team across multiple sites simple (paid feature).
 
 ***
 
