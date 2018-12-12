@@ -158,7 +158,7 @@ We recommend using some time to research the different hosting options for stati
 
 Invite your clients or team members to allow them to update the site with Forestry.
 
-Editors that only have access to one specific site are called Guests in Forestry. These roles are ideal for non-technical users that maintain a site on a regular basis (e.g. writers, clients or marketers). You can add a Guest to your site in the sidebar by clicking on the + and adding their e-mail address.
+Editors that only have access to one specific site are called Guests in Forestry. These roles are ideal for non-technical users that maintain a site on a regular basis (e.g. writers, clients or marketers). You can add a Guest to your site in the sidebar by clicking on the _+_ and adding their e-mail address.
 
 ![](/uploads/2018/12/add-guest-quickstart.png)
 
