@@ -141,7 +141,7 @@ Feel free to hit _Save_ to deploy your changes.
 
 To put your site live, Forestry builds and deploys your site to a hosting service of your choice, every time you hit _Save_ on any page.
 
-Forestry by default simply saves your files back to your repository without building the site for you and this works for some hosts. Most hosting providers require a built site (e.g. GitHub Pages, Zeit, AWS S3, SFTP etc.). Forestry does this for you. 
+Forestry by default saves your files back to your repository without building the site for you and this works for some hosts. However, in most cases you have to send the built site to the hosting provider of your choice (these include GitHub Pages, Zeit, AWS S3, SFTP). Forestry does this for you. 
 
 Under _Site_ click on _Settings_ and choose _Deployment_. You'll see a dropdown with all of your [deployment options](/docs/hosting/) that can currently be handled by Forestry. See _Additional Resources_ below to find specific guides for selected deployment methods.
 
