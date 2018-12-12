@@ -28,27 +28,22 @@ This tour will walk you through setting up your first site in Forestry. It demon
 [Sign up](https://app.forestry.io/signup) for a Forestry account, and then navigate to the [dashboard](https://app.forestry.io/dashboard).
 
 1. Click "Try our Jekyll starter template!"
-2. Select your Git Provider from the list of options.
-
-{{% warning %}}
-_Bitbucket users need to copy the_ [_demo repository_](https://github.com/forestryio-templates/belkirk-jekyll-demo) _to their account and select "Jekyll" in the first step._
-{{% /warning %}}
-
-1. A window will open asking you to give Forestry access to your repositories. _If you are not already logged in, your provider will prompt you for login credentials first._
-2. Click "Authorize application" and wait a few seconds for the window to close.
-3. Give the new repository a name, or keep the default: `forestry-demo`
-4. Click "Create Site"
-5. After a moment you will be redirected to the Forestry Content Manager (CMS)
+2. Select your Git Provider from the list of options. _Bitbucket users need to copy the_ [_demo repository_](https://github.com/forestryio-templates/belkirk-jekyll-demo) _to their account and select "Jekyll" in the first step._
+3. A window will open asking you to give Forestry access to your repositories. _If you are not already logged in, your provider will prompt you for login credentials first._
+4. Click "Authorize application" and wait a few seconds for the window to close.
+5. Give the new repository a name, or keep the default: `forestry-demo`
+6. Click "Create Site"
+7. After a moment you will be redirected to the Forestry Content Manager (CMS)
 
 Congrats, your first site is being created!
 
-< Add a graphic that shows what happens in the background >
+< Add a graphic for the paragraph below >
 
 This process may take a couple minutes. Forestry will create a new repository with your git provider, push a copy of our [Belkirk Jekyll Demo](https://github.com/forestryio-templates/belkirk-jekyll-demo "Belkirk Jekyll Demo Repo") site, and then start the import process. Once the import is complete, the CMS will load in all of your content and you can move on to the next section.
 
 {{% tip %}}
 
-To see your site you can navigate to your Git Provider ([GitHub](https://github.com), [Gitlab](https://gitlab.com) or [Bitbucket](https://bitbucket.org)) and select the relevant repository (e.g. "forestry-demo"). For GitHub your address would look like this https://<span></span>github.com/USERNAME/REPOSITORY.
+To see where your site is stored you can navigate to your Git Provider ([GitHub](https://github.com), [Gitlab](https://gitlab.com) or [Bitbucket](https://bitbucket.org)) and select the relevant repository (e.g. "forestry-demo"). For example with GitHub your address would look like this https://<span></span>github.com/USERNAME/REPOSITORY.
 
 ![](/uploads/2018/12/github-forestry-demo.png)
 
