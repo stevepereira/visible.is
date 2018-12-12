@@ -182,7 +182,7 @@ Forestry has many more features for content editors:
 * Add structured metadata with [Front Matter](/docs/editing/front-matter)
 * Access the CMS from your own domain with the [Remote Admin](/docs/editing/remote-admin)
 
-### Coding
+### Developing
 
 Forestry offers many features that provide flexibility to developers:
 
