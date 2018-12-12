@@ -182,3 +182,13 @@ Forestry has many more features for content editors:
 * Learn how to create [Menus](/docs/editing/menus) for navigation and site links
 * Add structured metadata with [Front Matter](/docs/editing/front-matter)
 * Access the CMS from your own domain with the [Remote Admin](/docs/editing/remote-admin)
+
+### Coding
+
+Forestry offers many features that provide flexibility to developers:
+
+* Create [Front Matter Templates](/docs/settings/front-matter-templates/) to allow editors to create new content 
+* Add [Custom Build Commands](/docs/settings/build-commands/) to add Frontend Asset Pipelines (e.g. Gulp, Webpack etc.)
+* Allow editors to access the Content Manager from their site via a [Remote Admin](/docs/editing/remote-admin/)
+* Access outgoing [Webhooks](/docs/hosting/webhooks/) to notify third-party applications
+* Make your Forestry theme available for others to use with the [Import Button]().
