@@ -73,7 +73,7 @@ Select the _Posts_ collection in the sidebar, then open up the editor by selecti
 
 ![](/uploads/2018/12/draft-post-editor.png)
 
-On the left is the post's front matter (custom metadata for the post, like its title and thumbnail), and on the right is the content body of the post. The editor provides a visual, rich-text editor that is friendly for non-technical users and saves to markdown.
+On the left is the post's front matter (custom metadata for the post, like its title and thumbnail) and on the right is the content body of the post. The editor provides a visual, rich-text editor that is friendly for non-technical users and saves to markdown.
 
 ![](/uploads/2018/12/editor-quickstart.png)
 
@@ -86,9 +86,10 @@ Click the _Save_ button to deploy your site. By default Forestry saves your chan
 **Additional resources:**
 
 * Create great content with the powerful [Markdown Editor](/docs/editing/markdown-editor)
-* Allow Editors to add custom code [Snippets](/docs/settings/snippets/)
-* Create Modular Content with [Blocks](/docs/settings/fields/blocks/)
+* Configure [Front Matter Templates ]()for new content
 * Customize your Preview by adding [Custom Preview Commands](https://forestry.io/docs/settings/build-commands/)
+* Allow Editors to add custom code [Snippets](/docs/settings/snippets/)
+* Create Modular Content with [Blocks](/docs/settings/fields/blocks/) (also known as Advanced Custom Fields or Matrix Fields)
 
 ***
 
@@ -181,11 +182,3 @@ Forestry has many more features for content editors:
 * Learn how to create [Menus](/docs/editing/menus) for navigation and site links
 * Add structured metadata with [Front Matter](/docs/editing/front-matter)
 * Access the CMS from your own domain with the [Remote Admin](/docs/editing/remote-admin)
-
-## Menus
-
-Menus allow your content editors to manage your site's navigation and other types of menus easily.
-
-![](/uploads/2018/12/menus-quickstart.png)
-
-Under _Site_ in the sidebar, select _Menus_. Try re-arranging the menu with drag-and-drop, and then preview your changes by clicking the preview button in the top right.
