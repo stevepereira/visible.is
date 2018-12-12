@@ -190,4 +190,4 @@ Forestry offers many features that provide flexibility to developers:
 * Add [Custom Build Commands](/docs/settings/build-commands/) to add Frontend Asset Pipelines (e.g. Gulp, Webpack etc.)
 * Allow editors to access the Content Manager from their site via a [Remote Admin](/docs/editing/remote-admin/)
 * Access outgoing [Webhooks](/docs/hosting/webhooks/) to notify third-party applications
-* Make your Forestry theme available for others to use with the [Import Button]().
+* Make your Forestry theme available for others to use with the [Import Button](https://forestry.io/docs/import-button/).
