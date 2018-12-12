@@ -77,7 +77,7 @@ On the left is the post's front matter (custom metadata for the post, like its t
 
 ![](/uploads/2018/12/editor-quickstart.png)
 
-Make your first edit by updating the post's title, and then click <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><g fill="none" fill-rule="evenodd" stroke="currentcolor" stroke-width="1.2"><path d="M12 18c6 0 10-6 10-6s-4-6-10-6-10 6-10 6 4 6 10 6z"></path><circle cx="12" cy="12" r="2"></circle></g></svg> in the top right to preview your changes.
+Make your first edit by updating the post's title, and then click <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><g fill="none" fill-rule="evenodd" stroke="currentcolor" stroke-width="1.2"><path d="M12 18c6 0 10-6 10-6s-4-6-10-6-10 6-10 6 4 6 10 6z"></path><circle cx="12" cy="12" r="2"></circle></g></svg> in the top-right corner to preview your changes.
 
 Next, set the post as published so that it will be included when the site is deployed. In the top-right corner turn _Draft_ to _OFF_. You'll see the _Save Draft_ button now only says _Save_.
 
