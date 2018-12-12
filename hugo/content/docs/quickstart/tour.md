@@ -42,6 +42,8 @@ _Bitbucket users need to copy the_ [_demo repository_](https://github.com/forest
 
 Congrats, your first site is being created!
 
+< Add a graphic that shows what happens in the background >
+
 This process may take a couple minutes. Forestry will create a new repository with your git provider, push a copy of our [Belkirk Jekyll Demo](https://github.com/forestryio-templates/belkirk-jekyll-demo "Belkirk Jekyll Demo Repo") site, and then start the import process. Once the import is complete, the CMS will load in all of your content and you can move on to the next section.
 
 {{% tip %}}
