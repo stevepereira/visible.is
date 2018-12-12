@@ -86,7 +86,7 @@ Click the _Save_ button to deploy your site. By default Forestry saves your chan
 **Additional resources:**
 
 * Create great content with the powerful [Markdown Editor](/docs/editing/markdown-editor)
-* Configure [Front Matter Templates ]()for new content
+* Configure [Front Matter Templates ](/docs/settings/front-matter-templates/)for new content
 * Customize your Preview by adding [Custom Preview Commands](https://forestry.io/docs/settings/build-commands/)
 * Allow Editors to add custom code [Snippets](/docs/settings/snippets/)
 * Create Modular Content with [Blocks](/docs/settings/fields/blocks/) (also known as Advanced Custom Fields or Matrix Fields)
