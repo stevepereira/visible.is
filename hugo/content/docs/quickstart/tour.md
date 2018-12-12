@@ -6,7 +6,7 @@ authors: []
 publishdate: 2017-12-07 04:00:00 +0000
 expirydate: 2030-01-01 04:00:00 +0000
 weight: 4
-date: 2017-03-23 04:00:00 +0000
+date: 2018-12-12 04:00:00 +0000
 images:
 - "/uploads/2018/01/OGimage-01-docs-3x.jpg"
 menu:
@@ -19,7 +19,7 @@ menu:
 
 This tour will walk you through setting up your first site in Forestry. It demonstrates the primary features and editing functionality of the CMS.
 
----
+***
 
 ## Getting Started
 
@@ -28,17 +28,17 @@ This tour will walk you through setting up your first site in Forestry. It demon
 [Sign up](https://app.forestry.io/signup) for a Forestry account, and then navigate to the [dashboard](https://app.forestry.io/dashboard).
 
 1. Click "Try our Jekyll starter template!"
-2. Select your Git Provider from the list of options. 
+2. Select your Git Provider from the list of options.
 
 {{% warning %}}
-_Bitbucket users need to copy the [demo repository](https://github.com/forestryio-templates/belkirk-jekyll-demo) to their account and select "Jekyll" in the first step._
+_Bitbucket users need to copy the_ [_demo repository_](https://github.com/forestryio-templates/belkirk-jekyll-demo) _to their account and select "Jekyll" in the first step._
 {{% /warning %}}
 
-3. A window will open asking you to give Forestry access to your repositories. _If you are not already logged in, your provider will prompt you for login credentials first._
-4. Click "Authorize application" and wait a few seconds for the window to close.
-5. Give the new repository a name, or keep the default: `forestry-demo`
-6. Click "Create Site"
-7. After a moment you will be redirected to the Forestry Content Manager (CMS)
+1. A window will open asking you to give Forestry access to your repositories. _If you are not already logged in, your provider will prompt you for login credentials first._
+2. Click "Authorize application" and wait a few seconds for the window to close.
+3. Give the new repository a name, or keep the default: `forestry-demo`
+4. Click "Create Site"
+5. After a moment you will be redirected to the Forestry Content Manager (CMS)
 
 Congrats, your first site is being created!
 
@@ -52,7 +52,7 @@ To see your site you can navigate to your Git Provider ([GitHub](https://github.
 
 {{% /tip %}}
 
----
+***
 
 ## Managing Content
 
@@ -60,7 +60,7 @@ In Forestry, all of your content is sorted into _Sections_ under _Content_ in th
 
 ![](/uploads/2018/12/connect-quickstart.png)
 
-Take a look at the different sections by selecting them from the sidebar. 
+Take a look at the different sections by selecting them from the sidebar.
 
 {{% tip %}}
 You can customize your sidebar by going to _Settings_ and selecting the _Sidebar_ tab. Simply click on any of the section fields, change the _Label_ field to something else and reorder the section bars.
@@ -70,7 +70,7 @@ You can customize your sidebar by going to _Settings_ and selecting the _Sidebar
 Click on _Save_ and the Sidebar will update to the new section settings. You can also declare what files a Sidebar section should hold with [glob patterns](/docs/guides/misc/working-with-globs/). For further reference see our [docs](/docs/settings/content-sections/)
 {{% /tip %}}
 
----
+***
 
 ## Content Editor
 
@@ -94,7 +94,7 @@ Click the _Save_ button to deploy your site. By default Forestry saves your chan
 * Allow Editors to add custom code [Snippets](/docs/settings/snippets/)
 * Create Modular Content with [Blocks](/docs/settings/fields/blocks/)
 
----
+***
 
 ## Data Files
 
@@ -102,7 +102,7 @@ _Data files_ allow you to set up metadata that isn't associated with a specific 
 
 ![](/uploads/2018/12/datafiles-quickstart.png)
 
-In Forestry, Data Files show up in the sidebar with your content files, select _Contact Information_ to pull up the demo site's company information. 
+In Forestry, Data Files show up in the sidebar with your content files, select _Contact Information_ to pull up the demo site's company information.
 
 Update the _Twitter_ option from "forestryio" to "twitter" or any other handle, and then click <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><g fill="none" fill-rule="evenodd" stroke="currentcolor" stroke-width="1.2"><path d="M12 18c6 0 10-6 10-6s-4-6-10-6-10 6-10 6 4 6 10 6z"></path><circle cx="12" cy="12" r="2"></circle></g></svg> in the top right to preview the website.
 
@@ -112,7 +112,7 @@ Once the preview has loaded, you'll see that the Twitter feed on the homepage ha
 Previewing data files and menus will always redirect you to the homepage of your site, because they aren't associated with a specific page!
 {{% /tip %}}
 
----
+***
 
 ## Media Library
 
@@ -138,7 +138,7 @@ Feel free to hit _Save_ to deploy your changes.
 
 * Connect the Forestry Media Library with [Cloudinary](/docs/media/cloudinary/)
 
----
+***
 
 ## Deployment
 
@@ -152,11 +152,11 @@ We recommend using some time to research the different options for static sites 
 
 **Additional Resources:**
 
-* Our [guide](/docs/hosting/github-pages/) to set up free hosting with Github Pages 
+* Our [guide](/docs/hosting/github-pages/) to set up free hosting with Github Pages
 * Set up a static site hosting stack on [AWS with CloudFormation](/docs/hosting/s3-cloudfront-stack/)
 * Integrate Forestry with other providers via [Webhooks](/docs/hosting/webhooks/)
 
----
+***
 
 ## Team and Guest Management
 
@@ -166,11 +166,11 @@ Editors that only have access to one specific site are called Guests in Forestry
 
 ![](/uploads/2018/12/add-guest-quickstart.png)
 
-Guest roles are always free, per site you can add up-to 3 of these roles. 
+Guest roles are always free, per site you can add up-to 3 of these roles.
 
-For teams that want to take it to the next level Forestry offers [Organizations](/docs/settings/team-management#organizations). Organizing editors, developers and admins in [User roles](/docs/settings/team-management#user-roles) makes managing your whole team simple (paid feature). 
+For teams that want to take it to the next level Forestry offers [Organizations](/docs/settings/team-management#organizations). Organizing editors, developers and admins in [User roles](/docs/settings/team-management#user-roles) makes managing your whole team simple (paid feature).
 
----
+***
 
 ## Next Steps
 
