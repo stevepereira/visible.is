@@ -105,6 +105,8 @@ Update the _Twitter_ option from "forestryio" to "twitter" or any other handle, 
 
 Once the preview has loaded, you'll see that the Twitter feed on the homepage has updated.
 
+![](/uploads/2018/12/twitter.png)
+
 {{% tip %}} Previewing data files and menus will always redirect you to the homepage of your site, because they aren't associated with a specific page. {{% /tip %}}
 
 ***
@@ -137,9 +139,11 @@ Feel free to hit _Save_ to deploy your changes.
 
 ## Deployment
 
-To put your site live, Forestry builds and deploys your site to a hosting service of your choice, every time you hit _Save_ on any page. 
+To put your site live, Forestry builds and deploys your site to a hosting service of your choice, every time you hit _Save_ on any page.
 
-The demo site by default simply saves your files back to your repository without building the site for you. However, usually you have to send the built site (e.g. GitHub Pages, Zeit, AWS S3, SFTP etc.). Forestry does this for you. Under _Site_ click on _Settings_ and choose _Deployment_. You'll see a dropdown with all of your [deployment options](/docs/hosting/) that can currently be handled by Forestry. See _Additional Resources_ below to find specific guides for selected deployment methods.
+Forestry by default simply saves your files back to your repository without building the site for you and this works for some hosts. Most hosting providers require a built site (e.g. GitHub Pages, Zeit, AWS S3, SFTP etc.). Forestry does this for you. 
+
+Under _Site_ click on _Settings_ and choose _Deployment_. You'll see a dropdown with all of your [deployment options](/docs/hosting/) that can currently be handled by Forestry. See _Additional Resources_ below to find specific guides for selected deployment methods.
 
 ![](/uploads/2018/12/deployment-quickstart.png)
 
@@ -185,7 +189,7 @@ Forestry has many more features for content editors:
 
 Forestry offers many features that provide flexibility to developers:
 
-* Create [Front Matter Templates](/docs/settings/front-matter-templates/) to allow editors to create new content 
+* Create [Front Matter Templates](/docs/settings/front-matter-templates/) to allow editors to create new content
 * Add [Custom Build Commands](/docs/settings/build-commands/) to add Frontend Asset Pipelines (e.g. Gulp, Webpack etc.)
 * Allow editors to access the Content Manager from their site via a [Remote Admin](/docs/editing/remote-admin/)
 * Access outgoing [Webhooks](/docs/hosting/webhooks/) to notify third-party applications
