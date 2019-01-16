@@ -12,7 +12,7 @@ menu:
 draft: true
 
 ---
-Forestry respects the configuration set for your Front Matter format (JSON, TOML or YAML) set in your `config` file.
+Forestry respects the configuration set for your Front Matter format (JSON, TOML or YAML) set in your `config` file. 
 
 {{% code_tabs %}} {{% tab "toml" %}}
 
