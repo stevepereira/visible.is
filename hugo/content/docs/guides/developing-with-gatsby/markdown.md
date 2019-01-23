@@ -21,3 +21,17 @@ layout
 template
 
 note: use remark-transform thing
+
+## Markdown / Forestry
+
+## Using Markdown With Gatsby
+
+### Remember the building blocks
+- where do we source content? file system
+- how do we expose this to graphql? remark plugin
+- how to we make this generate pages? gatsby-node.js
+    + pull in templates written in React code
+
+### Install the markdown-remark plugin
+
+### Tell Gatsby to Generate Pages From Markdown

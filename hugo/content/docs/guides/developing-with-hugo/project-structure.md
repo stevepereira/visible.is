@@ -20,7 +20,7 @@ Inside your content folder, you create the structure and organization that works
 
 For example, a Hugo site may look like this:
 
-```
+```bash
 .
 ├── archetypes/ 
 ├── config.yml
