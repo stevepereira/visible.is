@@ -10,9 +10,10 @@
         Per user / month
       </span>
       <p class="plan--description plan--description__mobile">{{ .description }}</p>
+      <a href="{{ .buttonUrl | absURL }}" class="plan--cta button primary small">{{ .buttonText }}</a>
     </div>
   </div>
-  <a href="{{ .buttonUrl | absURL }}" class="plan--cta button primary small">{{ .buttonText }}</a>
+
   <p class="plan--description"></p>
   <div class="plan--includes">
     <div class="plan--item__includes">

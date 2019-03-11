@@ -32,7 +32,7 @@
 .plan--top-bar {
   background: $color-dark;
   display: none;
-  padding-bottom: 4rem;
+  padding-bottom: 6rem;
   padding-top: 10rem;
 
   @media screen and (min-width: 870px) {
@@ -123,7 +123,7 @@
     left: 2rem;
     margin: 0;
     position: absolute;
-    top: 1rem;
+    bottom: -3rem;
   }
 }
 
