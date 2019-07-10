@@ -32,6 +32,7 @@ The Instant Preview server may be in one of several states:
 | Ready| The preview server is running the Build Command|
 | Stopping| The preview server is shutting down.|
 | Error| The an error occurred while running the preview server. |
+| Hibernating | The server was [shut down due to inactivity](#server-hibernation). |
 
 ## Server Actions
 Depending on the state of your preview server, several server actions will be available,
@@ -64,3 +65,10 @@ Common preview steps include:
 | Installing Dependencies |  Runs the  _Install Dependencies Command_ if it was set. Dependencies will be loaded from cache if it exists. |
 | Saving Preview Cache |  Caches the repository and any installed dependencies.  |
 | Building Site |  Executes the _Build Command_ to start serving your preview. |
+
+
+## Server Hibernation
+
+The preview server will automatically shut down if there hasn't been any activity in the CMS for a couple hours, at which point the server will enter the **hibernating** state. When the server is hibernating, any activity inside the CMS will cause it to start up again.
+
+If you manually stop the preview server by clicking the **stop** button, it will not automatically start back up in response to CMS activity, and will instead remain stopped until you manually start it again.
