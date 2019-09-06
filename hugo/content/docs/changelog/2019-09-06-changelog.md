@@ -6,7 +6,7 @@ title: 2019/09/06 Changelog
 summary: ''
 
 ---
-### New starters 
+### New starters
 
 Newcomers can now [pick one of our starters](https://forestry.io/starters/ "Get started with Forestry") for Gatsby, Gridsome, Eleventy, Next, VuePress, Hugo or Jekyll.
 
@@ -20,12 +20,13 @@ If you're a theme developer and that yo have a nice working theme setup ready fo
 
 ![](/uploads/2019/09/quick-start-new-repository.png)
 
-* Search team members by First and Last Name 
+* Search team members by First and Last Name
 
 ![](/uploads/2019/09/search-user-by-name.png)
 
+* Sort organization sites by last edited
 * Don't force capitalization on front matter keys (allow camelCase)
-* Listing organizations sites for external editors
+* Fix listing organizations sites for external editors
 * Show last user sign in for organizations using SSO
 * Increased timeout on pre-sign AWS URLs for Instant Previews
 
